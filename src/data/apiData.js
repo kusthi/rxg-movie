@@ -10,8 +10,6 @@ export const APIs = {
   },
 };
 
-console.log(APIs.generalAPI.key);
-
 export const PARAMS = {
   apiKey: 'api_key',
   sortBy: 'sort_by',
