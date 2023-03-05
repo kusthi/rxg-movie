@@ -9,7 +9,7 @@ export default function MovieDetails({ movie }) {
 
   return (
     <div>
-      <h3>{movie.title}</h3>
+      <h2>{movie.title}</h2>
     </div>
   );
 }

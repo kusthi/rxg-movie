@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-button {
+.btn {
   margin: 20px 0;
   padding: 10px;
   border: none;
@@ -21,4 +21,11 @@ button {
   background-color: antiquewhite;
   color: #1b1b1b;
   font-weight: bold;
+}
+
+.img {
+  margin: 20px 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 7px;
 }

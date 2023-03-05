@@ -1,7 +1,7 @@
 export default function Button({ onClick, children }) {
   return (
     <button
-      style={{ marginBottom: 20 }}
+      className='btn'
       onClick={e => onClick()}
     >
       {children}

@@ -22,7 +22,7 @@ export default function LoadImageWithFeedback({ imgURL, setIsImgLoaded }) {
   return (
     <div>
       <img
-        style={{ width: 300, height: 300, borderRadius: 5 }}
+        className='img'
         src={imgURL}
         alt='Movie Poster'
       />
