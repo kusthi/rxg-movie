@@ -1,6 +1,6 @@
 export const APIs = {
   generalAPI: {
-    key: process.env.REACT_APP_MOVIEDB_API_KEY,
+    key: import.meta.env.VITE_MOVIEDB_API_KEY,
     url: 'https://api.themoviedb.org',
     path: '/3/discover/movie',
   },
@@ -9,6 +9,8 @@ export const APIs = {
     path: '/t/p/w500',
   },
 };
+
+console.log(APIs.generalAPI.key);
 
 export const PARAMS = {
   apiKey: 'api_key',
