@@ -2,7 +2,9 @@ export const APIs = {
   generalAPI: {
     key: import.meta.env.VITE_MOVIEDB_API_KEY,
     url: 'https://api.themoviedb.org',
-    path: '/3/discover/movie',
+    discoverMoviesPath: '/3/discover/movie',
+    genresPath: '/3/genre/movie/list',
+    moviePath: '/3/movie/',
   },
   imgAPI: {
     url: 'https://image.tmdb.org',

@@ -20,7 +20,7 @@ export default function LoadImageWithFeedback({ imgURL, setIsImgLoaded }) {
   }
 
   return (
-    <div>
+    <div className='img-cont'>
       <img
         className='img'
         src={imgURL}

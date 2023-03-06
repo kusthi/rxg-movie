@@ -39,7 +39,7 @@ function constructQueryableURL(
   minVoteAvg = 8
 ) {
   const api = APIs.generalAPI;
-  const url = new URL(api.path, api.url);
+  const url = new URL(api.discoverMoviesPath, api.url);
   url.searchParams.set(PARAMS.apiKey, api.key);
   url.searchParams.set(PARAMS.releaseYear, year);
   url.searchParams.set(PARAMS.genresToInclude, genre);

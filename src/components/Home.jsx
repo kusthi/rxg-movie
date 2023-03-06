@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <div>
+      <div className='main-cont'>
         <Hero />
         <Button onClick={setMovie}>Generate Movie</Button>
         <Movie movie={movie} />
@@ -19,7 +19,7 @@ export default function Home() {
 function Hero() {
   return (
     <div>
-      <h1>Your movie night is on me</h1>
+      <h1 className='titles'>Your movie night is on me</h1>
     </div>
   );
 }

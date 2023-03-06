@@ -1,10 +1,12 @@
 export default function Button({ onClick, children }) {
   return (
-    <button
-      className='btn'
-      onClick={e => onClick()}
-    >
-      {children}
-    </button>
+    <div className='btn-cont'>
+      <button
+        className='btn'
+        onClick={() => onClick()}
+      >
+        {children}
+      </button>
+    </div>
   );
 }
