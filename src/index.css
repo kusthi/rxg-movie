@@ -34,7 +34,6 @@ body {
 @media (max-width: 500px) {
   .movie-desc p {
     width: 400px !important;
-    font-size: 1.1rem !important;
   }
 }
 
