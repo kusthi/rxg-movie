@@ -45,7 +45,7 @@
 
 @media (max-width: 300px) {
   .movie-desc p {
-    width: 150px !important;
+    width: 200px !important;
   }
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .titles {
-  /* */
+  display: block; /* dummy style */
 }
 
 .main-cont {
