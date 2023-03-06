@@ -37,12 +37,19 @@ body {
   }
 }
 
-@media (max-width: 400px) {
-  .movie-desc {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+@media (max-width: 450px) {
+  .movie-desc p {
+    width: 350px !important;
+    font-size: 1rem !important;
   }
 
+  .titles,
+  .movie-title {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media (max-width: 400px) {
   .movie-desc p {
     width: 300px !important;
     font-size: 1rem !important;
@@ -50,7 +57,7 @@ body {
 
   .titles,
   .movie-title {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
 }
 
@@ -63,6 +70,11 @@ body {
 @media (max-width: 300px) {
   .movie-desc p {
     width: 200px !important;
+  }
+
+  .titles,
+  .movie-title {
+    font-size: 1rem !important;
   }
 }
 
