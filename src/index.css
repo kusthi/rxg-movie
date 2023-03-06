@@ -45,7 +45,7 @@
 
 @media (max-width: 300px) {
   .movie-desc p {
-    width: 200px !important;
+    width: 150px !important;
   }
 }
 
