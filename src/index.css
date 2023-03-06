@@ -25,15 +25,12 @@
 @media (max-width: 400px) {
   .movie-desc p {
     width: 300px !important;
+    font-size: 1rem !important;
   }
 
   .titles,
   .movie-title {
     font-size: 1.3rem !important;
-  }
-
-  .movie-desc p {
-    font-size: 1rem !important;
   }
 }
 
