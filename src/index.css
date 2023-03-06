@@ -37,6 +37,12 @@
   }
 }
 
+@media (max-width: 350px) {
+  .movie-desc p {
+    width: 250px !important;
+  }
+}
+
 :root {
   --main-bg-color: #191c20;
   --main-fg-color: #e1e1dd;
