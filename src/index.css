@@ -3,6 +3,21 @@
   padding: 0;
 }
 
+:root {
+  --main-bg-color: #191c20;
+  --main-fg-color: #e1e1dd;
+  --main-text-color-dim: #91a3b0;
+}
+:root,
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-fg-color);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  height: 100%;
+  font-size: 14px;
+}
+
 @media (max-width: 700px) {
   .img {
     width: 250px !important;
@@ -44,21 +59,6 @@
   .movie-desc p {
     width: 200px !important;
   }
-}
-
-:root {
-  --main-bg-color: #191c20;
-  --main-fg-color: #e1e1dd;
-  --main-text-color-dim: #91a3b0;
-}
-:root,
-body {
-  background-color: var(--main-bg-color);
-  color: var(--main-fg-color);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  height: 100%;
-  font-size: 14px;
 }
 
 .titles {
