@@ -40,6 +40,8 @@ body {
 @media (max-width: 400px) {
   .movie-desc p {
     width: 300px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
     font-size: 1rem !important;
   }
 
